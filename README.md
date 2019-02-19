@@ -7,7 +7,7 @@
 
 2. __Code Style:__ Write clear and easier to Quality Assure code by following <a href="https://style.tidyverse.org" target="_blank">The tidyverse style guide</a>, or just run the <a href="http://styler.r-lib.org" target="_blank">Styler add-in</a> within RStudio which does it automatically.
 
-3. __Package Code:__ Learn how you build <a href="https://r-pkgs.org/index.html" target="_blank">R Packages</a> then consider converting your analysis into a <a href="https://github.com/ukgovdatascience/rap_companion" target="_blank">Reproducible Analytical Pipeline</a>
+3. __Package Code:__ Learn how you build <a href="https://r-pkgs.org/index.html" target="_blank">R Packages</a> then consider converting your analysis into a <a href="https://ukgovdatascience.github.io/rap_companion/" target="_blank">Reproducible Analytical Pipeline</a>
 
 
 ## Learning to visualise data with R
