@@ -1,29 +1,31 @@
-# R guides & galleries for data analysis & presentation
+R guides & galleries for data analysis & presentation
+================
 
-A short list of __core__ R guides and galleries. 
+-   [Learn to analyse data with R](#learn-to-analyse-data-with-r)
+-   [Learn to visualise data with R](#learn-to-visualise-data-with-r)
+
+A short list of **core** R guides and galleries.
 
 Following these can lead you from zero experience to mastering the key skills of data analysis and presentation with R.
 
+Learn to analyse data with R
+----------------------------
 
+1.  **Code Skills:** Learn RStudio and R code from zero knowledge to quite advanced using [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/).
 
-## Learn to analyse data with R
+2.  **Code Style:** Write clear code that is easier to Quality Assure by following [The tidyverse style guide](https://style.tidyverse.org). Or far more easy than reading and following rules, run the [RStudio Styler add-in](http://styler.r-lib.org) to style your code automatically.
 
+3.  **Package Code:** consider converting data analysis that is regularly repeated into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). Start to learn how to do this by building a simple [R Package](https://r-pkgs.org/index.html) first.
 
-1. __Code Skills:__ Learn RStudio and R code from zero knowledge to quite advanced using <a href="https://b-rodrigues.github.io/modern_R/" target="_blank">Modern R with the tidyverse</a>. 
+Learn to visualise data with R
+------------------------------
 
-2. __Code Style:__ Write clear code that is easier to Quality Assure by following <a href="https://style.tidyverse.org" target="_blank">The tidyverse style guide</a>. Or simply run the <a href="http://styler.r-lib.org" target="_blank">RStudio Styler add-in</a> to style your code automatically.
+1.  Follow this [guide to the right visualisation for the task](https://serialmentor.com/dataviz/), particulary the chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html).
 
-3. __Package Code:__ Learn how to build a simple <a href="https://r-pkgs.org/index.html" target="_blank">R Package</a> then consider converting data analysis that is regularly repeated into a <a href="https://ukgovdatascience.github.io/rap_companion/" target="_blank">Reproducible Analytical Pipeline (RAP)</a>.
+2.  Learn now to build ggplot charts step-by-step with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). And [this version](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) starts with simple data preperation before buildig the charts step-by-step.
 
+3.  Many "Addins" have been written for RStudio. When you run Addins the from the RStudio "Addins" menu they often create easy Point-and-Click interfaces that generate good working code. Here is a [long list of RStudio Add-ins](https://github.com/daattali/addinslist) maintained by the excellent Dean Attali (he is also an R Shiny instructor on DataCamp). The [esquisse](https://github.com/dreamRs/esquisse) Addin is an excellent Point-and-Click interface for building and generating the code for simple ggplot charts. Even advanced R coders can find ggplot code tricky and find this Addin useful.
 
+4.  [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/). From this gallery, I strongly reccomend trying the [dygraphs](http://rstudio.github.io/dygraphs/) package for time series, Plotly for easy interactive charts, and [echarts4r](https://echarts4r.john-coene.com) for an easy to code graphs that also include animation.
 
-## Learn to visualise data with R
-
-
-4. <a href="https://serialmentor.com/dataviz/" target="_blank">Guide to the right visualisation for the task</a>
-
-5. <a href="https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1" target="_blank">Guide to easily understand building ggplot2 charts </a>
-
-6. <a href="https://www.ggplot2-exts.org/gallery/" target="_blank">Gallery of ggplot extensions</a>
-
-7. <a href="http://gallery.htmlwidgets.org/" target="_blank">Gallery of interactive R visualisations</a>
+5.  This [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/) lets you create a greater variety of charts.
