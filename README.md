@@ -17,7 +17,7 @@ Learn to analyse data with R
 
 3.  **Code Style:** Write clear code that is easier to Quality Assure by following [The tidyverse style guide](https://style.tidyverse.org). Though it's much less effort to style your code automatically by running the [RStudio Styler add-in](http://styler.r-lib.org).
 
-4.  **Package Code:** If your data analysis is regularly repeated or re-used, consider converting it into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). Start to learn how to build a RAP by learning how to build the most [R Package](https://r-pkgs.org/index.html) possible first.
+4.  **Package Code:** If your data analysis is regularly repeated or re-used, consider converting it into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). Start to learn how to build a RAP by learning how to build the most simple [R Package](https://r-pkgs.org/index.html) possible first.
 
 Learn to visualise data with R
 ------------------------------
@@ -26,7 +26,7 @@ Learn to visualise data with R
 
 2.  **ggplot step-by-step:** Learn now to build ggplot charts step-by-step with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this version](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation examples before building the charts step-by-step.
 
-3.  **Use RStudio Addins:** Many "Addins" have been written for RStudio. When you run them from the RStudio "Addins" menu they typically offer simple Point-and-Click interfaces that generate good working code. Here is a [long list of RStudio Add-ins](https://github.com/daattali/addinslist) maintained by the excellent Dean Attali (he is also an R Shiny instructor on DataCamp). The [esquisse](https://github.com/dreamRs/esquisse) Addin is an excellent Point-and-Click interface for building and generating the code for simple ggplot charts. Even advanced R users can find ggplot code fiddly so should find the esquisse Addin useful.
+3.  **Use RStudio Addins:** Many "Addins" have been written for RStudio. When you run them from the RStudio "Addins" menu they typically offer simple Point-and-Click interfaces that generate good working code. Here is a [long list of RStudio Add-ins](https://github.com/daattali/addinslist) maintained by the excellent Dean Attali (he is also an R Shiny instructor on DataCamp). The [esquisse](https://github.com/dreamRs/esquisse) Addin is an excellent Point-and-Click interface for building and generating the code for simple ggplot charts. Even advanced R users can find ggplot code tricky so esquisse is useful for everyone.
 
 4.  **Use interactive charts:** [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/). From this gallery, I strongly recommend trying the [dygraphs](http://rstudio.github.io/dygraphs/) package for time series charts, use [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts, and [echarts4r](https://echarts4r.john-coene.com) is easy to code graphs that also include animation.
 
