@@ -35,3 +35,5 @@ Learn to visualise data with R
 5.  **See if a ggplot extension helps your story:** This [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/) lets you create a greater variety of different plots that may better support your narrative.
 
 6.  **Consider animating your plots:** If movment of data points in your plot will help better explain the story you are telling, animate it with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md).
+
+7.  **Putting it all together:** Even when you only have basic R code skills you can benefit from watching how well an R expert can rapidly explore and visualise data. David Robinson records live R coding videos in one hour on data he has never seen before. Here is a good example that explores [wind turbine locations](https://youtu.be/O1oDIQV6VKU) in the USA. It is one of the many [TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets he has coded live with you can search for on YouTube.
