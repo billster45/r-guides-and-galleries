@@ -28,17 +28,24 @@ Learn to visualise data with R
 ------------------------------
 
 1.  **Explore your data first:** There are several R tools let you explore your data interactively faster and easier than coding alone. For example:
-    1.  [esquisse](https://github.com/dreamRs/esquisse) is an RStudio "Addin" that launches a Point-and-Click dialog which you use to interactively build simple ggplot plots and automatically generate the code for each plot you create. Even advanced R users can find ggplot code tricky so esquisse is useful for everyone. Here is a long list of many more [RStudio Add-ins](https://github.com/daattali/addinslist).
-    2.  [rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html) is the R version of Excel's Pivot Tables and Charts. It's great for quickly exploring your data with heat maps, bar charts, line charts etc. in an R Markdown html output document.
-2.  **Pick the right visualistion to tell your data story:** Follow the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to pick the right visualisation for the point you are trying to make. The chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) is particularly good about the importance of story telling in data. While the charts in Wilke's book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz), it does not aim to teach R code data visualistion skills. For a quick guide on how to create visualistions in R code the [graphs chapter](http://www.cookbook-r.com/Graphs/) in the [Cookbook for R](http://www.cookbook-r.com) is more helpful.
 
-3.  **Learn to build ggplots easily step-by-step:** If you are just starting to use ggplot, learn more intuitively how to build up the code you need line-by-line with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation examples before building the charts step-by-step.
+[esquisse](https://github.com/dreamRs/esquisse) is an RStudio "Addin" that launches a Point-and-Click dialog which you use to interactively build simple ggplot plots and automatically generate the code for each plot you create. Even advanced R users can find ggplot code tricky so esquisse is useful for everyone. Here is a long list of many more [RStudio Add-ins](https://github.com/daattali/addinslist).
 
-4.  **Make your plots interactive:** [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/). From this gallery, I strongly recommend trying the [dygraphs](http://rstudio.github.io/dygraphs/) package for time series charts, use [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts.
+<img src="https://raw.githubusercontent.com/dreamRs/esquisse/master/man/figures/esquisse.gif" style="width:70.0%" />
 
-5.  **See if a ggplot extension helps your story:** This [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/) lets you create a greater variety of different plots that may better support your narrative.
+[rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html) is the R version of Excel's Pivot Tables and Charts. It's great for quickly exploring your data with heat maps, bar charts, line charts etc. in an R Markdown html output document.
 
-6.  **Consider animating your plots:** If movement of data points in your plot will help better explain the story you are telling, animate it with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md). Learn how to [animate ggplots intuitively](https://github.com/billster45/gganimate-experiments/blob/master/README.md) using my guide inspired by a good Twitter post.
+<img src="https://raw.githubusercontent.com/nicolaskruchten/pivottable/master/images/animation.gif" style="width:70.0%" />
+
+1.  **Pick the right visualistion to tell your data story:** Follow the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to pick the right visualisation for the point you are trying to make. The chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) is particularly good about the importance of story telling in data. While the charts in Wilke's book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz), it does not aim to teach R code data visualistion skills. For a quick guide on how to create visualistions in R code the [graphs chapter](http://www.cookbook-r.com/Graphs/) in the [Cookbook for R](http://www.cookbook-r.com) is more helpful.
+
+2.  **Learn to build ggplots easily step-by-step:** If you are just starting to use ggplot, learn more intuitively how to build up the code you need line-by-line with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation examples before building the charts step-by-step.
+
+3.  **Make your plots interactive:** [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/). From this gallery, I strongly recommend trying the [dygraphs](http://rstudio.github.io/dygraphs/) package for time series charts, use [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts.
+
+4.  **See if a ggplot extension helps your story:** This [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/) lets you create a greater variety of different plots that may better support your narrative.
+
+5.  **Consider animating your plots:** If movement of data points in your plot will help better explain the story you are telling, animate it with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md). Learn how to [animate ggplots intuitively](https://github.com/billster45/gganimate-experiments/blob/master/README.md) using my guide inspired by a good Twitter post.
 
 <img src="images/gapminder.gif" style="width:70.0%" />
 

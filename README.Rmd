@@ -30,8 +30,14 @@ Following these can lead you from zero experience to mastering the key skills of
 ## Learn to visualise data with R
 
 7. __Explore your data first:__ There are several R tools let you explore your data interactively faster and easier than coding alone. For example:  
-    a. [esquisse](https://github.com/dreamRs/esquisse) is an RStudio "Addin" that launches a Point-and-Click dialog which you use to interactively build simple ggplot plots and automatically generate the code for each plot you create. Even advanced R users can find ggplot code tricky so esquisse is useful for everyone. Here is a long list of many more [RStudio Add-ins](https://github.com/daattali/addinslist). 
-    b. [rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html) is the R version of Excel's Pivot Tables and Charts. It's great for quickly exploring your data with heat maps, bar charts, line charts etc. in an R Markdown html output document.
+
+[esquisse](https://github.com/dreamRs/esquisse) is an RStudio "Addin" that launches a Point-and-Click dialog which you use to interactively build simple ggplot plots and automatically generate the code for each plot you create. Even advanced R users can find ggplot code tricky so esquisse is useful for everyone. Here is a long list of many more [RStudio Add-ins](https://github.com/daattali/addinslist). 
+
+![](https://raw.githubusercontent.com/dreamRs/esquisse/master/man/figures/esquisse.gif){ width=70%}
+
+[rpivotTable](https://cran.r-project.org/web/packages/rpivotTable/vignettes/rpivotTableIntroduction.html) is the R version of Excel's Pivot Tables and Charts. It's great for quickly exploring your data with heat maps, bar charts, line charts etc. in an R Markdown html output document.
+
+![](https://raw.githubusercontent.com/nicolaskruchten/pivottable/master/images/animation.gif){ width=70%}
     
 8. __Pick the right visualistion to tell your data story:__ Follow the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to pick the right visualisation for the point you are trying to make. The chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) is particularly good about the importance of story telling in data. While the charts in Wilke's book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz), it does not aim to teach R code data visualistion skills. For a quick guide on how to create visualistions in R code the [graphs chapter](http://www.cookbook-r.com/Graphs/) in the [Cookbook for R](http://www.cookbook-r.com) is more helpful. 
 
