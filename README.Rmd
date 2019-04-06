@@ -44,11 +44,74 @@ Following these can lead you from zero experience to mastering the key skills of
 12. __Consider animating your plots:__ If movement of data points in your plot will help better explain the story you are telling, animate it with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md). Learn how to [animate ggplots intuitively](https://github.com/billster45/gganimate-experiments/blob/master/README.md) using my guide inspired by a good Twitter post.
 
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results="hide", eval=FALSE}
+library(ggplot2)
+library(gganimate)
+library(transformr) # devtools::install_github("thomasp85/transformr")
+library(magick)
+library(gifski)
+library(png)
+library(datasauRus)
+library(gapminder)
+library(kableExtra)
+library(cowplot)
+
+p <- 
+  ggplot2::ggplot(data = gapminder::gapminder) + 
+  ggplot2::aes(x = gdpPercap, y=lifeExp, size = pop, colour = country) +
+  ggplot2::geom_point(show.legend = FALSE) +
+  ggplot2::scale_x_log10() +
+  ggplot2::scale_color_viridis_d() +
+  ggplot2::scale_size(range = c(2, 12)) +
+  ggplot2::labs(x = "GDP per capita", y = "Life expectancy") +
+  gganimate::transition_time(time = year) +
+  ggplot2::labs(title = "Year: {frame_time}",
+                subtitle = "The movement of these data points tells a meaningful story") +
+  gganimate::shadow_wake(wake_length = 0.1, alpha = FALSE) +
+  ggplot2::theme_minimal()
+print(p)
+gganimate::anim_save(filename = "./images/gapminder.gif")
+```
+
+![](images/gapminder.gif){ width=70% }
+
 ## Putting it all together
 
 13. __Watch a master at work:__ Even when you only have basic R code skills you will still benefit from watching how well an R expert rapidly explores and visualises data. David Robinson records live R coding videos in one hour on data he has never seen before. Here is a good example that explores [wind turbine locations](https://youtu.be/O1oDIQV6VKU) in the USA. It is one of the many [TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets he has coded live with you can search for on YouTube.
 
 14. __Be creative, but follow the rules!:__ While data visualisation allows creativity, exploration and personal expression, it is surprisingly easy to build bad or ugly visualisations. You must continually  criticise your own plots, and ask others to challenge your work. Use the rules in [The Office for National Satistics Data Visualisation guide](https://style.ons.gov.uk/category/data-visualisation/) to challenge your visualisations and then improve them. You can also find your visualisation type in Clause Wilke's [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) book and see how his advice can improve your plot. This Medium post from The Economist called [Mistakes, we've drawn a few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) is a good example of effective self-criticism.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "60%"}
+p1 <- 
+  ggplot2::ggplot(data = datasets::airquality) +
+  ggplot2::aes(x = Day, y = Temp,
+               colour= as.factor(Month)) +
+  ggplot2::geom_line(size = 1) +
+  ggplot2::labs(title = "This plot is bad & Ugly",
+                subtitle = "Air quality each day by month") 
+
+p2 <- 
+  ggplot2::ggplot(data = datasets::airquality) +
+  ggplot2::aes(x = Day, y = Temp) +
+  ggplot2::geom_line(size = 1) +
+  ggplot2::geom_line(color = 'steelblue', size = 1) +
+  ggplot2::facet_wrap(~Month, ncol = 2) +
+  ggplot2::labs(title = "This plot is better, but it could still be imporved. How?",
+                subtitle = "Air quality each day by month") +
+  ggplot2::theme_minimal()
+  
+# https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
+plot2by2 <- cowplot::plot_grid(p1, p2,
+                      labels=c("A", "B"), 
+                      ncol = 2)
+
+cowplot::save_plot("./images/plot2by2.png", plot2by2,
+          ncol = 2,
+          base_aspect_ratio = 1.3
+          )
+```
+
+![](images/plot2by2.png){ width=100% } 
 
 15. __Present your final story:__ Your final story in a document of some kind (e.g. web page, Word or PowerPoint) is where you tell your engaging story. But often, you have spent so long with your data you will suffer from the [curse of knowledge](https://en.wikipedia.org/wiki/The_Sense_of_Style#The_curse_of_knowledge). You can no longer remember what it is like __not__ to know what you now know. Assume as little knowledge as possible in your final document to defeat this curse. T
 
