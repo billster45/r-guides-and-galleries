@@ -23,13 +23,13 @@ __Code Style:__ Write clear code that is easier to Quality Assure by following [
 
 __Package Code:__ If your data analysis is regularly repeated or re-used, consider converting  it into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). Start to learn how to build a RAP by building the most simple [R Package](https://r-pkgs.org/index.html) possible first. However, packages are a more advanced topic. You won't need to build them if you are just starting out.
 
-__Use GitHub to save your code:__  Start saving your code on GitHub, even when you are only staring out to learn R. This called versioning your code. GitHub can be hard to learn if you start using it via the text commands you type into the command prompt. A better way to learn GitHub with RStudio is through the easy menus and buttons in RStudio, as described in this good  [Using git from Studio tutorial](https://nceas.github.io/oss-lessons/version-control/4-getting-started-with-git-in-RStudio.html). However, GitHub can also be fiddly to install and get working with RStudio too. This is why Jenny Bryan has written [Happy Git and GitHub for the useR](https://happygitwithr.com/) to help her students troubleshoot all the many problems. Because of the many challenges with GitHub, if you are just starting to learn it, try to seek out a good user who will help you get going in person.
+__Use GitHub to save your code:__  Start saving your code on GitHub even when if you are just starting to learn R. This called versioning your code. GitHub can be hard to learn if you start using it via the text commands you type into the command prompt. A better way to learn GitHub with RStudio is through the easy to use menus and buttons as described in this good  [Using git from Studio tutorial](https://nceas.github.io/oss-lessons/version-control/4-getting-started-with-git-in-RStudio.html). However, GitHub can also be fiddly to install and get working with RStudio too. This is why Jenny Bryan has written [Happy Git and GitHub for the useR](https://happygitwithr.com/) to help her students troubleshoot all the many problems. Because of the many challenges with GitHub, if you are just starting to learn it, try to seek out a good user who can coach you in person.
 
 ## Learn to visualise data with R
 
-__Explore your data first:__ There are several R tools let you explore your data interactively faster and easier than coding alone. For example:  
+__Explore your data first:__ There are several R tools let you explore your data interactively that can be faster and easier than coding alone, particularly when you first start to learn R. For example:  
 
-[esquisse](https://github.com/dreamRs/esquisse) is an RStudio "Addin" that launches this Point-and-Click interface that lets you build simple ggplot plots, as well as automatically generating the code for each plot you create. Even advanced R users can find ggplot code tricky so esquisse can be useful for everyone. Here is a long list of many more [RStudio Add-ins](https://github.com/daattali/addinslist). 
+[esquisse](https://github.com/dreamRs/esquisse) is an RStudio "Addin" that launches the Point-and-Click interface shown below. Use it to build simple ggplot plots. It also automatically generates the code you need for each plot you create with it. Even advanced R users can find ggplot code tricky so esquisse can be useful for everyone. Here is a long list of many more [RStudio Add-ins](https://github.com/daattali/addinslist). 
 
 ![](https://raw.githubusercontent.com/dreamRs/esquisse/master/man/figures/esquisse.gif){width=60%}
 
@@ -37,19 +37,19 @@ __Explore your data first:__ There are several R tools let you explore your data
 
 ![](https://raw.githubusercontent.com/nicolaskruchten/pivottable/master/images/animation.gif){width=60%}
   
-__Make data exploration easy for yourself:__ Claus Wilke makes a good case in his chapter [Data exploration versus data presentation](https://serialmentor.com/dataviz/choosing-visualization-software.html#data-exploration-versus-data-presentation) for using any tool that makes data exploration quick and easy for you. Use a different tool you know well to help you explore quickly. As you get better in R you will gradually use it more to explore your data.
+__Make data exploration easy for yourself:__ Claus Wilke makes a good case in his chapter [Data exploration versus data presentation](https://serialmentor.com/dataviz/choosing-visualization-software.html#data-exploration-versus-data-presentation) for using any tool that makes data exploration quick and easy for you. Use a different tool you know well to help you explore your data quickly. As you get better with R you will gradually use R code more to explore your data.
 
-__Pick the right visualistion to tell your data story:__ Browse the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to find the right visualisation for the point you are trying to make. The charts in Wilke's book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz). However, he didn't write his book to teach R code skills. It is tool and language neutral. For a good guide on how to create visualistions like Wilke's with R code start with the [graphs chapter](http://www.cookbook-r.com/Graphs/) in the [Cookbook for R](http://www.cookbook-r.com). 
+__Pick the right visualistion to tell your data story:__ Browse the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to find the right visualisation for the point you are trying to make. The charts in Wilke's book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz). However, he didn't write his book to teach R code skills, it is tool and language neutral. For a good guide on how to create visualistions in R code start with the [graphs chapter](http://www.cookbook-r.com/Graphs/) in the [Cookbook for R](http://www.cookbook-r.com). 
 
-__Learn to build ggplots easily step-by-step:__ If you are just starting to use ggplot, learn intuitively how to build up the code you need one line at a time with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation examples before building the charts step-by-step.
+__Learn to build ggplots easily step-by-step:__ If you are just starting to use ggplot, learn intuitively how to build up the code you need one line at a time with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) includes some simple data preparation code in addition before building the charts line by line.
 
-__Make your plots interactive:__ [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/). From this gallery, I strongly recommend trying the [dygraphs](http://rstudio.github.io/dygraphs/) package for time series charts and [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts. When partnered with ggplot, just these three packages are a powerful data visualisation toolkit.
+__Make your plots interactive:__ From the [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/) I strongly recommend [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts and [dygraphs](http://rstudio.github.io/dygraphs/) for easy to code time series charts. When partnered with ggplot, just these three packages are a very powerful data visualisation toolkit.
 
 __See if a ggplot extension helps your story:__ This [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/) lets you create a greater variety of different plots that may better support your narrative. The most popular extension in this gallery is gganimate I describe next.
 
 __Consider animating your plots:__ If movement of data points in your plot will help better explain the story you are telling, animate it with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md). Learn how to [animate ggplots intuitively](https://github.com/billster45/gganimate-experiments/blob/master/README.md) using my guide inspired by a good Twitter post.
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE, results="hide", eval=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results="hide"}
 library(ggplot2)
 library(gganimate)
 library(transformr) # devtools::install_github("thomasp85/transformr")
@@ -58,7 +58,9 @@ library(gifski)
 library(png)
 library(gapminder)
 library(cowplot)
+```
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results="hide", eval=FALSE}
 p <- 
   ggplot2::ggplot(data = gapminder::gapminder) + 
   ggplot2::aes(x = gdpPercap, y=lifeExp, size = pop, colour = country) +
@@ -80,24 +82,30 @@ gganimate::anim_save(filename = "./images/gapminder.gif")
 
 ## Putting it all together
 
-__Be creative, but follow these rules!__ It is surprisingly easy to build bad or ugly visualisations and not realise it could be better. Continually criticise your own plots. Ask others to challenge your work. Use the rules in [The Office for National Satistics Data Visualisation guide](https://style.ons.gov.uk/category/data-visualisation/) to check your visualisation does not break them. Find the type of visualisation you have made in the contents of Clause Wilke's [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) book. See if his advice for your type of plot can improve it. This Economist post called [Mistakes, we've drawn a few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) is a good example of effective self-criticism.
+__Be creative - but don't break these rules!__ It is surprisingly easy to build bad or ugly visualisations and not realise it could be better. Continually criticise your own plots. Ask others to challenge your work. Use the rules in [The Office for National Satistics Data Visualisation guide](https://style.ons.gov.uk/category/data-visualisation/) to check your visualisation does not break them. Find the type of visualisation you have made in the contents of Clause Wilke's [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) book. See if his advice for your type of plot can improve it. This Economist post called [Mistakes, we've drawn a few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) is a good example of effective self-criticism.
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, out.width = "60%"}
 p1 <- 
-  ggplot2::ggplot(data = datasets::airquality) +
-  ggplot2::aes(x = Day, y = Temp,
-               colour= as.factor(Month)) +
+  datasets::airquality %>%
+  dplyr::mutate(month = as.factor(Month)) %>%
+  ggplot2::ggplot() +
+  ggplot2::aes(x = Day, 
+               y = Temp,
+               colour= month) +
   ggplot2::geom_line(size = 1) +
-  ggplot2::labs(title = "This plot is bad & Ugly",
+  ggplot2::labs(title = "This plot is Bad & Ugly",
                 subtitle = "Air quality each day by month") 
 
 p2 <- 
-  ggplot2::ggplot(data = datasets::airquality) +
-  ggplot2::aes(x = Day, y = Temp) +
+  datasets::airquality %>%
+  dplyr::mutate(month = as.factor(Month)) %>%
+  ggplot2::ggplot() +
+  ggplot2::aes(x = Day, 
+               y = Temp) +
   ggplot2::geom_line(size = 1) +
   ggplot2::geom_line(color = 'steelblue', size = 1) +
-  ggplot2::facet_wrap(~Month, ncol = 2) +
-  ggplot2::labs(title = "This plot is better, but it could still be imporved. How?",
+  ggplot2::facet_wrap(~month, ncol = 2) +
+  ggplot2::labs(title = "This is better, but how can it be improved again?",
                 subtitle = "Air quality each day by month") +
   ggplot2::theme_minimal()
   
@@ -114,7 +122,7 @@ cowplot::save_plot("./images/plot2by2.png", plot2by2,
 
 ![](images/plot2by2.png){ width=100% } 
 
-__Present your final story:__ Tell an engaging data story in your final write up. This chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) describes how to tell stories with visuals that engage and don't confuse your audience. On the Data Science competition website called Kaggle, browse the [Kaggle "kernels"](https://www.kaggle.com/kernels?sortBy=voteCount&group=everyone&pageSize=20&language=R) in R with the most votes to get ideas for powerful story telling in data.
+__Present your final story:__ Tell an engaging data story in your final write up. This chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) describes how to tell stories with visuals that engage and don't confuse your audience. On the Data Science competition website called Kaggle, browse the [Kaggle "kernels"](https://www.kaggle.com/kernels?sortBy=voteCount&group=everyone&pageSize=20&language=R) in R with the most votes to get ideas for powerful story telling in data. One of the most effective formats to tell your stor is [R Markdown](https://rmarkdown.rstudio.com/gallery.html), particulalry if you create interactive html document. Here is a [Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse through the examples of others in [RPubs](https://rpubs.com/).
 
 __Watch a master story teller in R at work:__ Even when you have developed only basic R skills you can still benefit from watching an R expert rapidly explore and visualise data to tell a story. David Robinson records live R coding videos in one hour on data he has never seen before. This good example explores [wind turbine locations](https://youtu.be/O1oDIQV6VKU) in the USA. It is one of the many [TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets he has coded live. [Search](http://lmgtfy.com/?q=david+robinson+youtube+tidy+tuesday) for his videos on YouTube.
 
