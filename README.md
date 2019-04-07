@@ -10,7 +10,7 @@ These guides and galleries can help you master the key skills of data analysis a
 Learn to analyse data with R
 ----------------------------
 
-**Learn data analysis in R from scratch:** Learn how to analyse data using RStudio from zero knowledge to quite advanced by following [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/). Another popular guide is [R for Data Science](https://r4ds.had.co.nz).
+:one: **Learn data analysis in R from scratch:** Learn how to analyse data using RStudio from zero knowledge to quite advanced by following [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/). Another popular guide is [R for Data Science](https://r4ds.had.co.nz).
 
 **Totally new to code or R? Scared you will fail and feel stupid?:** If you've never coded before, or you have struggled to improve your R skills, consider paying for gentle guided learning from DataCamp. Their [Data Analyst with R skill track](https://www.datacamp.com/tracks/data-analyst-with-r) takes you through 16 courses in a logical order. They assume no prior knowledge or skills.
 
@@ -62,7 +62,7 @@ Putting it all together
 
 **Present your story with R Mardown:** One of the most effective formats for story telling in data is [R Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly if you create interactive html documents. Here is a [Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse through the examples of others in [RPubs](https://rpubs.com/).
 
-**Watch a master story teller use R:** Even with only basic R skills you can learn a lot from watching an R expert rapidly explore and visualise data to tell a story. David Robinson records himself carrying out live data analysis in R using data he has never seen before. In this recording he explores [wind turbine locations](https://youtu.be/O1oDIQV6VKU) in the USA. It is one of the many [TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets he has coded live. [Search](http://lmgtfy.com/?q=david+robinson+youtube+tidy+tuesday) for more his live coding videos on YouTube.
+**Watch a master story teller use R:** Even with only basic R skills you can learn a lot from watching an R expert rapidly explore and visualise data to tell a story. David Robinson records himself carrying out live data analysis in R using data he has never seen before. In this recording he explores [wind turbine locations](https://youtu.be/O1oDIQV6VKU) in the USA. It is one of the many [TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets he has coded live. Here is an Rstudio competition winning Shiny app that can show the most liked tweets for each data set: [tidytuesday.rocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/)
 
 **Telling good stories is hard because of the curse of knowledge:** Aim to tell your data story to someone who doesn't know what you know about the data. But, it is surprisingly hard to remember what it was like to **not** know what you now know, particularly after spending so long exploring the data set. This amnesia about your prior limited knowledge is called the [curse of knowledge](https://en.wikipedia.org/wiki/The_Sense_of_Style#The_curse_of_knowledge). To defeat this curse, assume as little knowledge as possible in your final document. The more prior knowledge you assume, the more likely it is your text, code and visualisations lose your audience. Or even worse, you accidentally mislead them.
 
