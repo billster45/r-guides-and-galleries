@@ -41,7 +41,7 @@ Learn to visualise data with R
 
 :one::zero: **Pick the right visualistion to tell your data story:** Scan the left hand contents panel of the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to find the right visualisation for the point you are trying to make. The charts in his book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz). However, he didn't write the book to teach R code skills. It is tool and language neutral. Instead, learn how to create ggplot visualistions in R code with the [graphs chapter](http://www.cookbook-r.com/Graphs/) of the [Cookbook for R](http://www.cookbook-r.com).
 
-:one::two: **Learn to build ggplots easily step-by-step:** If you are just starting to use ggplot, learn intuitively how to build up the code you need one line at a time with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation code before the plots are built line by line.
+:one::two: **Learn to build ggplots easily step-by-step:** If you are just starting to use ggplot, learn intuitively how to build up the code you need one line at a time with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation code before the plots are built line by line. And one more from a [hands on workshop](https://djnavarro.github.io/satrdayjoburg/slides/#1).
 
 :one::three: **Make your plots interactive:** From the [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/) I strongly recommend [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts. And for easy to code time series charts [dygraphs](http://rstudio.github.io/dygraphs/) is visually exciting. When partnered with ggplot, these three packages alone are a very powerful data visualisation toolkit.
 
@@ -54,7 +54,13 @@ Learn to visualise data with R
 Putting it all together
 -----------------------
 
-:one::six: **Be creative - but don't break these rules!** It is surprisingly easy to build bad or ugly visualisations and not realise how it could be better. Continually criticise your own plots. Ask others to challenge your work. Use [The Office for National Satistics Data Visualisation guide](https://style.ons.gov.uk/category/data-visualisation/) to check your visualisation does not break any of their rules. Find the type of visualisation you have made in the contents of Clause Wilke's [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) book. See if his advice for your type of plot can improve it. This Economist post called [Mistakes, we've drawn a few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) is a good example of effective self-criticism of data visualisation.
+:one::six: **Be creative - but don't break these rules!** It is surprisingly easy to build bad or ugly visualisations and not realise how it could be better. Continually criticise your own plots. Ask others to challenge your work. This Economist post called [Mistakes, we've drawn a few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368) is a good example of effective criticism of your own data visualisations. Use any of the following to challenge your own plots:
+
+-   Use [The Office for National Satistics Data Visualisation guide](https://style.ons.gov.uk/category/data-visualisation/) to check your visualisation does not break any of their rules.
+
+-   Similar to the ONS guide, here is good advice on avoiding [misleadig axes](https://callingbullshit.org/tools/tools_misleading_axes.html) and ensuring ["proportional ink"](https://callingbullshit.org/tools/tools_proportional_ink.html).
+
+-   Find the type of visualisation you have made in the contents of Clause Wilke's [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) book. See if his advice for your type of plot can improve it.
 
 <img src="images/plot2by2.png" style="width:100.0%" />
 
