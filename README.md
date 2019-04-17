@@ -10,7 +10,7 @@ These guides and galleries can help you master the key skills of data analysis a
 Learn to analyse data with R
 ----------------------------
 
-:one: **Learn data analysis in R from scratch:** Learn how to analyse data using RStudio from zero knowledge to quite advanced by following [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/). Another popular guide is [R for Data Science](https://r4ds.had.co.nz).
+:one: **Learn data analysis in R from scratch:** Learn how to analyse data using RStudio from zero knowledge to quite advanced by following [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/). Another popular guide is [R for Data Science](https://r4ds.had.co.nz). Another very comprehensive guide to R analysis from scratch is an [Introduction to Data Science](https://rafalab.github.io/dsbook/). Not all of the code is shown but it can be found [here](https://github.com/rafalab/dsbook) when needed.
 
 :two: **Totally new to code or R? Scared you will fail and feel stupid?:** If you've never coded before, or you have struggled to improve your R skills, consider paying for gentle guided learning from DataCamp. Their [Data Analyst with R skill track](https://www.datacamp.com/tracks/data-analyst-with-r) takes you through 16 courses in a logical order. They assume no prior knowledge or skills. A free alternative but for a more limited range of fundamental skills are the interactive [RStudio Primers](https://rstudio.cloud/learn/primers).
 
