@@ -18,17 +18,37 @@ These guides and galleries can help you master the key skills of data analysis a
 * A good set of lessons called [Programming wtih R](http://swcarpentry.github.io/r-novice-inflammation/) is aimed at non-programmers and teaches using a real data analysis task on one data set (learning by doing is best - see bullet 3 below).
 * Another good guide is [Practical Data Science with R](https://livebook.manning.com/#!/book/practical-data-science-with-r/about-this-book/).
 
-:two: __Totally new to code or R? Scared you will fail and feel stupid?:__ If you've never coded before, or you have struggled to improve your R skills, consider paying for gentle guided learning from DataCamp. Their [Data Analyst with R skill track](https://www.datacamp.com/tracks/data-analyst-with-r) takes you through 16 courses in a logical order. They assume no prior knowledge or skills. A free alternative but for a more limited range of fundamental skills are the interactive [RStudio Primers](https://rstudio.cloud/learn/primers).
+:two: __Totally new to code or R? Scared you will fail and feel stupid?:__ 
 
-:three: __Don't train too much. Do real analysis early:__ It can be tempting to complete many courses before you feel ready to try your own analysis. Instead, try writing your own simple analysis in R code as soon as you can, even if you don't feel ready. A good first project is replacing an Excel data task you know well with R code. Ideally, find a mentor to help you code your first projects. It's a quicker way to learn. Doing real things early is David Robinson's philosophy he explains in the section titled [Get students doing powerful things early](http://varianceexplained.org/r/teach-tidyverse/).
+* If you've never coded before, or you have struggled to improve your R skills, consider paying for gentle guided learning from DataCamp. Their [Data Analyst with R skill track](https://www.datacamp.com/tracks/data-analyst-with-r) takes you through 16 courses in a logical order. They assume no prior knowledge or skills. 
+* A free alternative but for a more limited range of fundamental skills are the interactive [RStudio Primers](https://rstudio.cloud/learn/primers).
 
-:four: __Become an independent problem solver:__ Don't hesitate to ask for help or to Google your problem or question. Getting better at solving your own problems using Google and other resources is an important skill to learn too, even when you have become an expert R programmer. This [Getting Help in R](https://blog.rsquaredacademy.com/getting-help-in-r-updated/) blog tells you about the best places to find help. The more you look for help, the better you become at judging which web sites and people help you the most.
+:three: __Don't train too much. Do real analysis early:__ 
 
-:five: __Write code in this clean style:__ Write clear code by following [The tidyverse style guide](https://style.tidyverse.org). It will be easier for you and others to Quality Assure. You can also style your code automatically by running the [RStudio Styler add-in](http://styler.r-lib.org).
+* It can be tempting to complete many courses before you feel ready to try your own analysis. Instead, try writing your own simple analysis in R code as soon as you can, even if you don't feel ready. 
+* A good first project is replacing an Excel data task you know well with R code. Doing real things early is David Robinson's philosophy he explains in the section titled [Get students doing powerful things early](http://varianceexplained.org/r/teach-tidyverse/).
+* Ideally, find a mentor to help you code your first projects. It's a quicker way to learn. 
 
-:six: __Repeating the same analysis regularly? Consider converting to an R package:__ If your data analysis is regularly repeated, consider converting  it into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). Start to learn how to build a RAP by building the most simple [R Package](https://r-pkgs.org/index.html) possible first. However, packages are a more advanced topic. You won't need to build them if you are just starting out.
+:four: __Become an independent problem solver:__ 
 
-:seven: __Use GitHub to save your code:__  Start saving your code on GitHub even when if you first start to learning R. This is called versioning your code. However, GitHub can be hard to learn if you only use the text commands typed at the command prompt. An easier way to learn GitHub with RStudio is through the menus and buttons as explained in [Using git from RStudio tutorial](https://nceas.github.io/oss-lessons/version-control/4-getting-started-with-git-in-RStudio.html). GitHub can also be fiddly to get working with RStudio. This is why Jenny Bryan has written [Happy Git and GitHub for the useR](https://happygitwithr.com/) to help her students troubleshoot the many potential problems. Because of these challenges with GitHub, ideally find an experienced user of RStudio and GitHub to coach you in person.
+* Don't hesitate to ask for help or to Google your problem or question. Getting better at solving your own problems using Google and other resources is an important skill to learn too, even when you have become an expert R programmer. 
+* This [Getting Help in R](https://blog.rsquaredacademy.com/getting-help-in-r-updated/) blog tells you about the best places to find help. The more you look for help, the better you become at judging which web sites and people help you the most.
+
+:five: __Write code in this clean style:__ 
+
+* Write clear code by following [The tidyverse style guide](https://style.tidyverse.org). It will be easier for you and others to Quality Assure. 
+* You can also style your code automatically by running the [RStudio Styler add-in](http://styler.r-lib.org).
+
+:six: __Repeating the same analysis regularly? Consider converting to an R package:__ 
+* If your data analysis is regularly repeated, consider converting  it into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). 
+* Start to learn how to build a RAP by building the most simple [R Package](https://r-pkgs.org/index.html) possible first. However, packages are a more advanced topic. 
+* You won't need to build them if you are just starting out.
+
+:seven: __Use GitHub to save your code:__  
+
+* Start saving your code on GitHub even when if you first start to learning R. This is called versioning your code. 
+* However, GitHub can be hard to learn if you only use the text commands typed at the command prompt. An easier way to learn GitHub with RStudio is through the menus and buttons as explained in [Using git from RStudio tutorial](https://nceas.github.io/oss-lessons/version-control/4-getting-started-with-git-in-RStudio.html). 
+* GitHub can also be fiddly to get working with RStudio. This is why Jenny Bryan has written [Happy Git and GitHub for the useR](https://happygitwithr.com/) to help her students troubleshoot the many potential problems. Because of these challenges with GitHub, ideally find an experienced user of RStudio and GitHub to coach you in person.
 
 ## Learn to visualise data with R
 
@@ -44,17 +64,31 @@ These guides and galleries can help you master the key skills of data analysis a
   
 * __Part-automate your EDA__: The blog post [Explore the landscape of R packages for automated data exploration](http://smarterpoland.pl/index.php/2019/04/explore-the-landscape-of-r-packages-for-automated-data-exploration/), its [detailed paper](https://arxiv.org/pdf/1904.02101.pdf), and associated [autoEDA-resources](https://github.com/mstaniak/autoEDA-resources) GitHub repository describe many automatic tools you can try. You can view several examples of the automatic EDA reports these tools can create [here](https://github.com/mstaniak/autoEDA-resources/tree/master/autoEDA-paper/plots). For example, here is a [DataExplorer](https://github.com/mstaniak/autoEDA-resources/blob/master/autoEDA-paper/plots/DataExplorer/dataexplorer_example.pdf) automatic report and this an example from  [SmartEDA](https://github.com/mstaniak/autoEDA-resources/blob/master/autoEDA-paper/plots/SmartEDA/smarteda_report_target.pdf). Both are generated from just one line of code. DataExplorer and smartEDA automatic reports work best when you first: keep only relevant columns, choose the correct data type for each column (this could be done as you [read in](https://www.r-bloggers.com/using-colclasses-to-load-data-more-quickly-in-r/) the data), and you set one column as the response or outcome.
 
-:nine: __Make Exploratory Data Analysis easy for yourself:__ In his chapter [Data exploration versus data presentation](https://serialmentor.com/dataviz/choosing-visualization-software.html#data-exploration-versus-data-presentation) Claus Wilke suggests using any tool that makes data exploration quick and easy for you. As your R skills improve you will gradually use R code more to explore your data. For example, Roger Peng's [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) clearly explains how to explore data using R code that is both easy to understand and run for yourself.
+:nine: __Make Exploratory Data Analysis easy for yourself:__ 
 
-:one::zero: __Pick the right visualistion to tell your data story:__ Use this [Data to Viz](https://www.data-to-viz.com/) website to help you pick the right visualisation for the type of data. Also, scan the left hand contents panel of the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to find the right visualisation for the point you are trying to make. The charts in his book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz). However, he didn't write the book to teach R code skills. It is tool and language neutral. Instead, learn how to create ggplot visualistions in R code with the [R Graphics Cookbook](https://r-graphics.org/) from the broader [Cookbook for R](http://www.cookbook-r.com). 
+* In his chapter [Data exploration versus data presentation](https://serialmentor.com/dataviz/choosing-visualization-software.html#data-exploration-versus-data-presentation) Claus Wilke suggests using any tool that makes data exploration quick and easy for you. 
+* As your R skills improve you will gradually use R code more to explore your data. For example, Roger Peng's [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) clearly explains how to explore data using R code that is both easy to understand and run for yourself.
 
-:one::one: __Learn to build ggplots easily step-by-step:__ If you are just starting to use ggplot, learn intuitively how to build up the code you need one line at a time with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation code before the plots are built line by line. And one more from a [hands on workshop](https://djnavarro.github.io/satrdayjoburg/slides/#1). Also, Michael Toth's [Detailed Guide to Plotting Line Graphs in R using ggplot geom_line](https://michaeltoth.me/a-detailed-guide-to-plotting-line-graphs-in-r-using-ggplot-geom_line.html) helps you build an intuitive understanding of line plots in ggplot. His blog post on [ggplot Scatter plots](https://michaeltoth.me/a-detailed-guide-to-the-ggplot-scatter-plot-in-r.html#a-detailed-guide-to-the-ggplot-scatter-plot-in-r) is good too.
+:one::zero: __Pick the right visualistion to tell your data story:__ 
+* Use this [Data to Viz](https://www.data-to-viz.com/) website to help you pick the right visualisation for the type of data. 
+* Also, scan the left hand contents panel of the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to find the right visualisation for the point you are trying to make. The charts in his book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz). 
+* However, Wike didn't write the book to teach R code skills. It is tool and language neutral. Instead, learn how to create ggplot visualistions in R code with the [R Graphics Cookbook](https://r-graphics.org/) from the broader [Cookbook for R](http://www.cookbook-r.com). 
 
-:one::two: __Make your plots interactive:__ From the [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/) I strongly recommend [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts. And for easy to code time series charts [dygraphs](http://rstudio.github.io/dygraphs/) is visually exciting. Creating interactive plots also improves your data exploration. Carson Sievert who maintains the Plotly R package demonstrates here how if interactive plots are built quickly (as is possible with Plotly) they can [augment your data exploration](https://talks.cpsievert.me/20180202/#1).
+:one::one: __Learn to build ggplots easily step-by-step:__ 
+* If you are just starting to use ggplot, learn intuitively how to build up the code you need one line at a time with this [flipbook guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1). 
+* While [this flipbook](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) also includes some simple data preparation code before the plots are built line by line. 
+* And one more from a [hands on workshop](https://djnavarro.github.io/satrdayjoburg/slides/#1). 
+* Also, Michael Toth's [Detailed Guide to Plotting Line Graphs in R using ggplot geom_line](https://michaeltoth.me/a-detailed-guide-to-plotting-line-graphs-in-r-using-ggplot-geom_line.html) helps you build an intuitive understanding of line plots in ggplot. His blog post on [ggplot Scatter plots](https://michaeltoth.me/a-detailed-guide-to-the-ggplot-scatter-plot-in-r.html#a-detailed-guide-to-the-ggplot-scatter-plot-in-r) is good too.
+
+:one::two: __Make your plots interactive:__ 
+* From the [Gallery of interactive R visualisations](http://gallery.htmlwidgets.org/) I strongly recommend [Plotly](https://plot.ly/r/) for a huge variety of easy to code interactive charts. And for easy to code time series charts [dygraphs](http://rstudio.github.io/dygraphs/) is visually exciting. 
+* Creating interactive plots also improves your data exploration. Carson Sievert who maintains the Plotly R package demonstrates here how if interactive plots are built quickly (as is possible with Plotly) they can [augment your data exploration](https://talks.cpsievert.me/20180202/#1).
 
 :one::three: __Does a ggplot extension improve your story?:__ With this [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/) create a greater variety of ggplots that can improve the story you tell in data. The most popular extension is gganimate described next.
 
-:one::four: __Consider animating your plots:__ If movement of data points better explains the story you are telling, animate them with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md). Learn how to [animate ggplots intuitively](https://github.com/billster45/gganimate-experiments/blob/master/README.md) using my guide inspired by a good Tweet.
+:one::four: __Consider animating your plots:__ 
+* If movement of data points better explains the story you are telling, animate them with [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md). 
+* Learn how to [animate ggplots intuitively](https://github.com/billster45/gganimate-experiments/blob/master/README.md) using my guide inspired by a good Tweet.
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, results="hide"}
 library(ggplot2)
@@ -135,9 +169,13 @@ cowplot::save_plot("./images/plot2by2.png", plot2by2,
 
 ![](images/plot2by2.png){ width=100% } 
 
-:one::six: __Present your final story:__ Tell an engaging data story in your final document. Claus Wilke's chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) shows you how to tell stories with engaging visuals that won't confuse your audience. On the Data Science competition website called Kaggle, browse the [Kaggle "kernels"](https://www.kaggle.com/kernels?sortBy=voteCount&group=everyone&pageSize=20&language=R) in R with the most votes.There are many ideas here for powerful story telling in data. 
+:one::six: __Present your final story:__ 
+* Tell an engaging data story in your final document. Claus Wilke's chapter on [telling a story and making a point](https://serialmentor.com/dataviz/telling-a-story.html) shows you how to tell stories with engaging visuals that won't confuse your audience. 
+* On the Data Science competition website called Kaggle, browse the [Kaggle "kernels"](https://www.kaggle.com/kernels?sortBy=voteCount&group=everyone&pageSize=20&language=R) in R with the most votes.There are many ideas here for powerful story telling in data. 
 
-:one::seven: __Present your story with R Mardown:__ One of the most effective formats for story telling in data is [R Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly if you create interactive html documents. Here is a [Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse through the examples of others in [RPubs](https://rpubs.com/).
+:one::seven: __Present your story with R Mardown:__ 
+* One of the most effective formats for story telling in data is [R Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly if you create interactive html documents. 
+* Here is a [Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse through the examples of others in [RPubs](https://rpubs.com/).
 
 :one::eight: __Watch a master story teller use R:__ Even with only basic R skills you can learn a lot from watching an R expert rapidly explore and visualise data to tell a story. David Robinson records himself carrying out live data analysis in R using data he has never seen before. In this recording he explores [wind turbine locations](https://youtu.be/O1oDIQV6VKU) in the USA. It is one of the many [TidyTuesday](https://github.com/rfordatascience/tidytuesday) data sets he has coded live. Here is an RStudio competition winning Shiny app that can show the most liked tweets for each data set: [tidytuesday.rocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/)
 
