@@ -249,12 +249,14 @@ in data. The most popular extension is gganimate described next.
 
 :one::five: **Be creative - but don’t break these rules\!** It is
 surprisingly easy to build bad or ugly visualisations and not realise
-how it could be better. Continually criticise your own plots. Ask others
-to challenge your work. This Economist post called [Mistakes, we’ve
-drawn a
-few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
-is a good example of effective criticism of your own data
-visualisations. Use any of the following to challenge your own plots:
+how it could be better.
+
+  - Continually criticise your own plots. Ask others to challenge your
+    work. This Economist post called [Mistakes, we’ve drawn a
+    few](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
+    is a good example of effective criticism of your own data
+    visualisations. Use any of the following to challenge your own
+    plots:
 
   - Use [The Office for National Satistics Data Visualisation
     guide](https://style.ons.gov.uk/category/data-visualisation/) to
