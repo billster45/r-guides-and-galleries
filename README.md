@@ -154,7 +154,7 @@ neutral. Instead, learn how to create ggplot visualistions in R code
 with the [R Graphics Cookbook](https://r-graphics.org/) from the broader
 [Cookbook for R](http://www.cookbook-r.com).
 
-:one::two: **Learn to build ggplots easily step-by-step:** If you are
+:one::one: **Learn to build ggplots easily step-by-step:** If you are
 just starting to use ggplot, learn intuitively how to build up the code
 you need one line at a time with this [flipbook
 guide](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1).
@@ -170,7 +170,7 @@ blog post on [ggplot Scatter
 plots](https://michaeltoth.me/a-detailed-guide-to-the-ggplot-scatter-plot-in-r.html#a-detailed-guide-to-the-ggplot-scatter-plot-in-r)
 is good too.
 
-:one::three: **Make your plots interactive:** From the [Gallery of
+:one::two: **Make your plots interactive:** From the [Gallery of
 interactive R visualisations](http://gallery.htmlwidgets.org/) I
 strongly recommend [Plotly](https://plot.ly/r/) for a huge variety of
 easy to code interactive charts. And for easy to code time series charts
@@ -181,12 +181,12 @@ interactive plots are built quickly (as is possible with Plotly) they
 can [augment your data
 exploration](https://talks.cpsievert.me/20180202/#1).
 
-:one::four: **Does a ggplot extension improve your story?:** With this
+:one::three: **Does a ggplot extension improve your story?:** With this
 [gallery of ggplot extensions](https://www.ggplot2-exts.org/gallery/)
 create a greater variety of ggplots that can improve the story you tell
 in data. The most popular extension is gganimate described next.
 
-:one::five: **Consider animating your plots:** If movement of data
+:one::four: **Consider animating your plots:** If movement of data
 points better explains the story you are telling, animate them with
 [gganimate](https://github.com/billster45/gganimate-experiments/blob/master/README.md).
 Learn how to [animate ggplots
@@ -197,7 +197,7 @@ using my guide inspired by a good Tweet.
 
 ## Putting it all together
 
-:one::six: **Be creative - but don’t break these rules\!** It is
+:one::five: **Be creative - but don’t break these rules\!** It is
 surprisingly easy to build bad or ugly visualisations and not realise
 how it could be better. Continually criticise your own plots. Ask others
 to challenge your work. This Economist post called [Mistakes, we’ve
@@ -222,8 +222,8 @@ visualisations. Use any of the following to challenge your own plots:
 
 ![](images/plot2by2.png)
 
-:one::seven: **Present your final story:** Tell an engaging data story
-in your final document. Claus Wilke’s chapter on [telling a story and
+:one::six: **Present your final story:** Tell an engaging data story in
+your final document. Claus Wilke’s chapter on [telling a story and
 making a point](https://serialmentor.com/dataviz/telling-a-story.html)
 shows you how to tell stories with engaging visuals that won’t confuse
 your audience. On the Data Science competition website called Kaggle,
@@ -232,14 +232,14 @@ browse the [Kaggle
 in R with the most votes.There are many ideas here for powerful story
 telling in data.
 
-:one::eight: **Present your story with R Mardown:** One of the most
+:one::seven: **Present your story with R Mardown:** One of the most
 effective formats for story telling in data is [R
 Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly if
 you create interactive html documents. Here is a [Quick
 Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse
 through the examples of others in [RPubs](https://rpubs.com/).
 
-:one::nine: **Watch a master story teller use R:** Even with only basic
+:one::eight: **Watch a master story teller use R:** Even with only basic
 R skills you can learn a lot from watching an R expert rapidly explore
 and visualise data to tell a story. David Robinson records himself
 carrying out live data analysis in R using data he has never seen
@@ -250,7 +250,7 @@ sets he has coded live. Here is an RStudio competition winning Shiny app
 that can show the most liked tweets for each data set:
 [tidytuesday.rocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/)
 
-:two::zero: **Telling good stories is hard because of the curse of
+:one::nine: **Telling good stories is hard because of the curse of
 knowledge:** Aim to tell your data story to someone who doesn’t know
 what you know about the data. But, it is surprisingly hard to remember
 what it was like to **not** know what you now know, particularly after
@@ -262,11 +262,11 @@ final document. The more prior knowledge you assume, the more likely it
 is your text, code and visualisations lose your audience. Or even worse,
 you accidentally mislead them.
 
-:two::one: **Explain clearly. Democratise:** A clear plain style in your
-writing, code and visualisations aimed at the widest audience possible
-doesn’t have to be dumbed down or over simplified. You can still present
-technical topics. For example, here I have tried to explain [key Natural
-Language Processing
+:two::zero: **Explain clearly. Democratise:** A clear plain style in
+your writing, code and visualisations aimed at the widest audience
+possible doesn’t have to be dumbed down or over simplified. You can
+still present technical topics. For example, here I have tried to
+explain [key Natural Language Processing
 techniques](https://github.com/billster45/NLP-Intuition/blob/master/README.md)
 in R while assuming no prior knowledge. Try not to be a gatekeeper of
 your growing R knowledge and skills. Share, explain and democratise what
