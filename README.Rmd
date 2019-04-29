@@ -40,6 +40,7 @@ These guides and galleries can help you master the key skills of data analysis a
 * You can also style your code automatically by running the [RStudio Styler add-in](http://styler.r-lib.org).
 
 :six: __Repeating the same analysis regularly? Consider converting to an R package:__ 
+
 * If your data analysis is regularly repeated, consider converting  it into a [Reproducible Analytical Pipeline (RAP)](https://ukgovdatascience.github.io/rap_companion/). 
 * Start to learn how to build a RAP by building the most simple [R Package](https://r-pkgs.org/index.html) possible first. However, packages are a more advanced topic. 
 * You won't need to build them if you are just starting out.

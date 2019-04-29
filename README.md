@@ -76,13 +76,15 @@ stupid?:**
     Styler add-in](http://styler.r-lib.org).
 
 :six: **Repeating the same analysis regularly? Consider converting to an
-R package:** \* If your data analysis is regularly repeated, consider
-converting it into a [Reproducible Analytical Pipeline
-(RAP)](https://ukgovdatascience.github.io/rap_companion/). \* Start to
-learn how to build a RAP by building the most simple [R
-Package](https://r-pkgs.org/index.html) possible first. However,
-packages are a more advanced topic. \* You won’t need to build them if
-you are just starting out.
+R package:**
+
+  - If your data analysis is regularly repeated, consider converting it
+    into a [Reproducible Analytical Pipeline
+    (RAP)](https://ukgovdatascience.github.io/rap_companion/).
+  - Start to learn how to build a RAP by building the most simple [R
+    Package](https://r-pkgs.org/index.html) possible first. However,
+    packages are a more advanced topic.
+  - You won’t need to build them if you are just starting out.
 
 :seven: **Use GitHub to save your code:**
 
