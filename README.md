@@ -12,18 +12,23 @@ I still come back to all theses guides and galleries to learn more.
 
 ## Learn to analyse data with R
 
-:one: **Learn data analysis in R from scratch:** Learn how to analyse
-data using RStudio from zero knowledge to quite advanced by following
-[Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/).
-Another popular guide is [R for Data Science](https://r4ds.had.co.nz).
-Another very comprehensive guide to R analysis from scratch is an
-[Introduction to Data Science](https://rafalab.github.io/dsbook/). Not
-all of the code is shown but it can be found
-[here](https://github.com/rafalab/dsbook) when needed. A good set of
-lessons called [Programming wtih
-R](http://swcarpentry.github.io/r-novice-inflammation/) is aimed at
-non-programmers and teaches using a real data analysis task on one data
-set (learning by doing is best - see bullet 3 below).
+:one: **Learn data analysis in R from scratch:**
+
+  - Learn how to analyse data using RStudio from zero knowledge to quite
+    advanced by following [Modern R with the
+    tidyverse](https://b-rodrigues.github.io/modern_R/).
+  - Another popular guide is [R for Data
+    Science](https://r4ds.had.co.nz). Another very comprehensive guide
+    to R analysis from scratch is an [Introduction to Data
+    Science](https://rafalab.github.io/dsbook/). Not all of the code is
+    shown but it can be found [here](https://github.com/rafalab/dsbook)
+    when needed.
+  - A good set of lessons called [Programming wtih
+    R](http://swcarpentry.github.io/r-novice-inflammation/) is aimed at
+    non-programmers and teaches using a real data analysis task on one
+    data set (learning by doing is best - see bullet 3 below).
+  - Another good guide is [Practical Data Science with
+    R](https://livebook.manning.com/#!/book/practical-data-science-with-r/about-this-book/).
 
 :two: **Totally new to code or R? Scared you will fail and feel
 stupid?:** If you’ve never coded before, or you have struggled to
