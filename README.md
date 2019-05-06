@@ -91,10 +91,9 @@ R package:**
     (RAP)](https://ukgovdatascience.github.io/rap_companion/).
 
   - Start to learn how to build a RAP by building the most simple [R
-    Package](https://r-pkgs.org/index.html) possible first. However,
-    packages are a more advanced topic.
-
-  - You won’t need to build them if you are just starting out.
+    Package](https://r-pkgs.org/index.html) possible first by following
+    this [simple step-by-step
+    guide](https://corinnovation.com/2019/04/26/creating-an-r-package/).
 
 :seven: **Use GitHub to save your code:**
 
