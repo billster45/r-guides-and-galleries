@@ -185,7 +185,7 @@ to learn R. For example:
     find in its [GitHub
     repository](https://github.com/clauswilke/dataviz).
 
-  - However, Wike didn’t write the book to teach R code skills. It is
+  - However, Wilke didn’t write the book to teach R code skills. It is
     tool and language neutral. Instead, learn how to create ggplot
     visualistions in R code with the [R Graphics
     Cookbook](https://r-graphics.org/) from the broader [Cookbook for
@@ -287,7 +287,7 @@ how it could be better.
     in R with the most votes.There are many ideas here for powerful
     story telling in data.
 
-:one::seven: **Present your story with R Mardown:**
+:one::seven: **Present your story with R Markdown:**
 
   - One of the most effective formats for story telling in data is [R
     Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly
@@ -296,7 +296,14 @@ how it could be better.
   - Here is a [Quick
     Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html).
     Browse through the examples of others in
-    [RPubs](https://rpubs.com/).
+    [RPubs](https://rpubs.com/). Once you are familiar with how to build
+    basic R Markdown outputs in html consider the many ways you can make
+    it more engaging with the options described in [R Markdown: The
+    Definitive
+    Guide](https://bookdown.org/yihui/rmarkdown/html-document.html). For
+    example, an effective way to organise long data stories are to break
+    them up into [tabbed
+    sections](https://bookdown.org/yihui/rmarkdown/html-document.html#tabbed-sections).
 
 :one::eight: **Watch a master story teller use R:**
 

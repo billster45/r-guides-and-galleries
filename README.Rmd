@@ -87,7 +87,7 @@ These guides and galleries can help you master the key skills of data analysis a
 
 * Also, scan the left hand contents panel of the [Fundamentals of Data Visualisation](https://serialmentor.com/dataviz/) guide by Claus Wilke to find the right visualisation for the point you are trying to make. The charts in his book are written in R code that you can find in its [GitHub repository](https://github.com/clauswilke/dataviz). 
 
-* However, Wike didn't write the book to teach R code skills. It is tool and language neutral. Instead, learn how to create ggplot visualistions in R code with the [R Graphics Cookbook](https://r-graphics.org/) from the broader [Cookbook for R](http://www.cookbook-r.com). 
+* However, Wilke didn't write the book to teach R code skills. It is tool and language neutral. Instead, learn how to create ggplot visualistions in R code with the [R Graphics Cookbook](https://r-graphics.org/) from the broader [Cookbook for R](http://www.cookbook-r.com). 
 
 :one::one: __Learn to build ggplots easily step-by-step:__ 
 
@@ -200,11 +200,11 @@ cowplot::save_plot("./images/plot2by2.png", plot2by2,
 
 * On the Data Science competition website called Kaggle, browse the [Kaggle "kernels"](https://www.kaggle.com/kernels?sortBy=voteCount&group=everyone&pageSize=20&language=R) in R with the most votes.There are many ideas here for powerful story telling in data. 
 
-:one::seven: __Present your story with R Mardown:__ 
+:one::seven: __Present your story with R Markdown:__ 
 
-* One of the most effective formats for story telling in data is [R Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly if you create interactive html documents. 
+* One of the most effective formats for story telling in data is [R Markdown](https://rmarkdown.rstudio.com/gallery.html), particularly if you create interactive html documents.
 
-* Here is a [Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse through the examples of others in [RPubs](https://rpubs.com/).
+* Here is a [Quick Tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html). Browse through the examples of others in [RPubs](https://rpubs.com/). Once you are familiar with how to build basic R Markdown outputs in html consider the many ways you can make it more engaging with the options described in [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/html-document.html). For example, an effective way to organise long data stories are to break them up into [tabbed sections](https://bookdown.org/yihui/rmarkdown/html-document.html#tabbed-sections).
 
 :one::eight: __Watch a master story teller use R:__ 
 
